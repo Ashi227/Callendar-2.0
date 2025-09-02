@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Callendar 2024</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>        
+   
+    <div class="clouds"></div>
+   
+    
+    
+    <div class="holiday-modal" id="holidayModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <img src="" alt="Holiday" class="holiday-image" id="modalImage">
+            <h2 class="holiday-title" id="modalTitle"></h2>
+            <div class="holiday-date" id="modalDate"></div>
+            <p class="holiday-description" id="modalDescription"></p>
+            <button class="btn btn-danger" id="closeButton">Close</button>
+        </div>
+    </div>
+        
+    <div class="clouds"></div>
+    
+    <div style="margin-left: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px; color: rgb(169, 98, 158); text-align: left; position: fixed; top: 10px; left: 10px; z-index: 1000;">
+        <div>RAFAEL PRESTO</div>
+        <div>BSIT-205</div>
+        <div>WEBSYSL</div>
+    </div>
+
+    <div class="container">
+        
+    <h1>Calendar 2024</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h3>January</h3>
+            <table class="table table-bordered">
+                <thead class="table-dark">
+                    <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td></td><td class="holiday-cell" data-date="January 1, 2024" data-title="New Year's Day" data-image="d:\callendor\newyear.png" data-description="The first day of the year, celebrated with fireworks, parties, and time with family and friends.">1</td>
+                    <td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+                    <tr><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td></tr>
+                    <tr><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td></tr>
+                    <tr><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td></tr>
+                    <tr><td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td><td></td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-6">
+            <h3>February</h3>
+            <table class="table table-bordered">
+                <thead class="table-dark">
+                    <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td></td><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td></tr>
+                    <tr><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td>
+                    <td class="holiday-cell" data-date="February 9, 2024" data-title="Chinese New Year (Bridge Day)" data-image="d:\callendor\chinesenewyearbridge.png" data-description="The eve of the Lunar New Year, a time for family reunions, festive meals, and traditions such as giving red envelopes, honoring ancestors, and preparing for the year ahead.">9</td>
+                    <td class="holiday-cell" data-date="February 10, 2024" data-title="Chinese New Year" data-image="d:\callendor\chinesenewyear.png" data-description="The first day of the Lunar New Year, celebrated with fireworks, dragon and lion dances, festive meals, and gatherings with family and friends to welcome prosperity and good fortune.">10</td></tr>
+                    <tr><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td></tr>
+                    <tr><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td></tr>
+                    <tr><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td></td><td></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h3>March</h3>
+            <table class="table table-bordered">
+                <thead class="table-dark">
+                    <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td></td><td></td><td></td><td></td><td></td><td>1</td><td>2</td></tr>
+                    <tr><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+                    <tr><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td></tr>
+                    <tr><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td></tr>
+                    <tr><td>24</td><td>25</td><td>26</td><td>27</td>
+                        <td class="holiday-cell" data-date="March 28, 2024" data-title="Maundy Thursday" data-image="d:\callendor\maundythursday.png" data-description="Observed during Holy Week, Maundy Thursday commemorates the Last Supper of Jesus Christ with His disciples. In the Philippines, it is marked by the Washing of the Feet ritual, Visita Iglesia (church visits), and evening Masses that begin the Easter Triduum.">28</td>
+                        <td class="holiday-cell" data-date="March 29, 2024" data-title="Good Friday" data-image="d:\callendor\goodfriday.png" data-description="A solemn day that commemorates the Passion and Death of Jesus Christ on the cross. In the Philippines, churches hold the Seven Last Words reflection, processions, and reenactments of the Passion of Christ. It is one of the most sacred days of Holy Week, observed with fasting, prayer, and silence.">29</td>>
+                        <td class="holiday-cell" data-date="March 30, 2024" data-title="Black Saturday" data-image="d:\callendor\blacksaturday.jpg" data-description="A day of mourning and reflection as the faithful remember Jesus lying in the tomb. In the Philippines, it is traditionally a quiet day without Mass, until the evening Easter Vigil, which signals the joyful anticipation of Christ’s resurrection.">30</td>
+                    </tr>
+                    <tr><td>31</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-6">
+            <h3>April</h3>
+            <table class="table table-bordered">
+                <thead class="table-dark">
+                    <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+                    <tr><td>7</td><td>8</td>
+                        <td class="holiday-cell" data-date="April 9, 2024" data-title="The Day of Valor" data-image="d:\callendor\dayofvalor.png" data-description="Araw ng Kagitingan, or the Day of Valor, honors the bravery and heroism of Filipino and American soldiers who fought during World War II, particularly in the Fall of Bataan in 1942. In the Philippines, it is a day of remembrance for their sacrifice, with ceremonies held at Mt. Samat Shrine in Bataan and other memorial sites across the country.">9</td>
+                        <td class="holiday-cell" data-date="April 10, 2024" data-title="Eid'l Fitr" data-image="d:\callendor\eidalftr.png" data-description="Eid’l Fitr marks the end of Ramadan, the holy month of fasting for Muslims. In the Philippines, it is celebrated by the Muslim community with special prayers at mosques, festive meals shared with family and friends, giving of zakat al-fitr (charity), and gatherings that strengthen faith and unity. It is a national holiday observed across the country in respect for Filipino Muslims.">10</td>
+                        <td>11</td><td>12</td><td>13</td></tr>
+                    <tr><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td></tr>
+                    <tr><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td></tr>
+                    <tr><td>28</td><td>29</td><td>30</td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+          <h3>May</h3>
+          <table class="table table-bordered">
+              <thead class="table-dark">
+                  <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+              </thead>
+              <tbody>
+                  <tr><td></td><td></td><td></td><td class="holiday-cell" data-date="May 1, 2024" data-title="Labor Day" data-image="d:\callendor\laborday.png" data-description="Labor Day in the Philippines honors the contributions and struggles of Filipino workers. It is a day marked by rallies, parades, and celebrations recognizing the rights and achievements of the labor force. Some also enjoy the holiday as a time for rest, family gatherings, or travel during the summer season.">1</td>
+                    <td>2</td><td>3</td><td>4</td></tr>
+                  <tr><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td></tr>
+                  <tr><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td></tr>
+                  <tr><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td></tr>
+                  <tr><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td></td></tr>
+              </tbody>
+          </table>
+      </div>
+
+      <div class="col-md-6">
+          <h3>June</h3>
+          <table class="table table-bordered">
+              <thead class="table-dark">
+                  <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+              </thead>
+              <tbody>
+                  <tr><td></td><td></td><td></td><td></td><td></td><td></td><td>1</td></tr>
+                  <tr><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td></tr>
+                  <tr><td>9</td><td>10</td><td>11</td>
+                    <td class="holiday-cell" data-date="June 12, 2024" data-title="Independence Day" data-image="d:\callendor\independenceday.png." data-description="Independence Day marks the declaration of Philippine independence from Spanish rule on June 12, 1898, in Kawit, Cavite. It is a national holiday celebrated with flag-raising ceremonies, parades, cultural programs, and tributes to national heroes. For Filipinos, it is a reminder of the country’s freedom, sovereignty, and enduring struggle for nationhood.">12</td>
+                    <td>13</td><td>14</td><td>15</td></tr><tr><td>16</td>
+                    <td class="holiday-cell" data-date="June 17, 2024" data-title="Eid’l Adha" data-image="d:\callendor\EidlAdha.png" data-description="Eid’l Adha, or the Feast of Sacrifice, is one of the most important Islamic holidays. It commemorates the willingness of Prophet Ibrahim (Abraham) to sacrifice his son in obedience to God. In the Philippines, Muslim communities observe this day with special prayers at mosques, the symbolic sacrifice of livestock such as goats or cows (shared with family, relatives, and the needy), and gatherings that emphasize faith, charity, and community. It is a national holiday observed in respect for Filipino Muslims.">17</td>
+                    <td>18</td><td>19</td><td>20</td><td>21</td><td>22</td></tr>
+                  <tr><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td></tr>
+                  <tr><td>30</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+
+  <div class="row">
+      <div class="col-md-6">
+          <h3>July</h3>
+          <table class="table table-bordered">
+              <thead class="table-dark">
+                  <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+              </thead>
+              <tbody>
+                  <tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+                  <tr><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td></tr>
+                  <tr><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td></tr>
+                  <tr><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td></tr>
+                  <tr><td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td><td></td></tr>
+              </tbody>
+          </table>
+      </div>
+
+      <div class="col-md-6">
+          <h3>August</h3>
+          <table class="table table-bordered">
+              <thead class="table-dark">
+                  <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+              </thead>
+              <tbody>
+                  <tr><td></td><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td></tr>
+                  <tr><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
+                  <tr><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td></tr>
+                  <tr><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td>
+                    <td class="holiday-cell" data-date="August 23, 2024" data-title="Ninoy Aquino Day" data-image="d:\callendor\ninoyaquinoday.png" data-description="Ninoy Aquino Day commemorates the martyrdom of former Senator Benigno “Ninoy” Aquino Jr., whose assassination in 1983 sparked a movement that led to the restoration of democracy in the Philippines. It is a special non-working holiday observed with tributes and reflections on his legacy of courage and sacrifice for freedom.">23</td>
+                    <td>24</td></tr><tr><td>25</td>
+                    <td class="holiday-cell" data-date="August 26, 2024" data-title="National Heroes Day" data-image="d:\callendor\nationalheroesday.png" data-description="National Heroes Day honors all Filipino heroes—known and unknown—who fought for the country’s freedom and independence throughout history. Ceremonies are held nationwide, including at the Libingan ng mga Bayani, to pay tribute to their bravery and enduring patriotism.">26</td>
+                    <td>27</td><td>28</td><td>29</td><td>30</td><td>31</td></tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>September</h3>
+            <table class="table table-bordered">
+                <thead class="table-dark">
+                    <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+                    <tr><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr>
+                    <tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td></tr>
+                    <tr><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td></tr>
+                    <tr><td>29</td><td>30</td><td></td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-6">
+            <h3>October</h3>
+            <table class="table table-bordered">
+                <thead class="table-dark">
+                    <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr>
+                    <tr><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td></tr>
+                    <tr><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td></tr>
+                    <tr><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td></tr>
+                    <tr><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h3>November</h3>
+            <table class="table table-bordered">
+                <thead class="table-dark">
+                    <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td></td><td></td><td></td><td></td><td></td>
+                    <td class="holiday-cell" data-date="November 1, 2024" data-title="All Saints’ Day" data-image="d:\callendor\saintsday.png" data-description="A day to honor all saints and martyrs of the Church. In the Philippines, families traditionally visit cemeteries to offer prayers, light candles, and bring flowers for their departed loved ones. It is one of the most widely observed holidays, marked by reunions and gatherings at memorial parks.">1</td>
+                    <td class="holiday-cell" data-date="November 2, 2024" data-title="All Souls’ Day" data-image="d:\callendor\allsoulsday.png" data-description="Dedicated to remembering and praying for all the faithful departed. In the Philippines, it is observed together with All Saints’ Day as part of Undas, when families return to their hometowns to pay respects to relatives who have passed away.">2</td>
+                    </tr>
+                    <tr><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+                    <tr><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td></tr>
+                    <tr><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td></tr>
+                    <tr><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td>
+                    <td class="holiday-cell" data-date="November 30, 2024" data-title="Bonifacio Day" data-image="d:\callendor\bonifacioday.png" data-description="Bonifacio Day commemorates the birth of Andrés Bonifacio, the Father of the Philippine Revolution and founder of the Katipunan. It is a national holiday honoring his courage and leadership in the fight for independence against Spanish rule. Ceremonies are held in Caloocan City and other historical sites connected to the Katipunan.">30</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-6">
+            <h3>December</h3>
+            <table class="table table-bordered">
+                <thead class="table-dark">
+                    <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+                    <td class="holiday-cell" data-date="December 8, 2024" data-title="Feast of the Immaculate Conception of the Blessed Virgin Mary" data-image="d:\callendor\virginmary.png" data-description="A holy day of obligation for Catholics, this feast honors the belief that the Virgin Mary was conceived without original sin. In the Philippines, it is a special non-working holiday, observed with Masses, processions, and Marian devotions.">8</td>
+                    <td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr>
+                    <tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td></tr>
+                    <tr><td>22</td><td>23</td>
+                    <td class="holiday-cell" data-date="December 24, 2024" data-title="Christmas Eve" data-image="d:\callendor\christmaseve.png" data-description="Filipinos celebrate Christmas Eve with Noche Buena, a midnight family feast after attending Misa de Gallo or Simbang Gabi. It is a time for gatherings, exchanging gifts, and festive traditions.">24</td>
+                    <td class="holiday-cell" data-date="December 25, 2024" data-title="Christmas Day" data-image="d:\callendor\christmasday.png" data-description="Christmas Day celebrates the birth of Jesus Christ. In the Philippines, it is one of the most important holidays, marked with church services, family reunions, and joyful festivities.">25</td>
+                    <td>26</td><td>27</td><td>28</td></tr><tr><td>29</td>
+                    <td class="holiday-cell" data-date="December 30, 2024" data-title="Rizal Day" data-image="d:\callendor\rizalday.png" data-description="Rizal Day commemorates the martyrdom of Dr. José Rizal, the national hero of the Philippines, who was executed in Bagumbayan (now Luneta) on December 30, 1896. It is a solemn holiday observed with flag-raising ceremonies and tributes to his life and works.">30</td>
+                    <td class="holiday-cell" data-date="December 31, 2024" data-title="New Year’s Eve" data-image="d:\callendor\newyeareve.png" data-description="The last day of the year, celebrated with parties, fireworks, and Media Noche—a midnight feast shared with family and friends to welcome the coming year with hope and prosperity.">31</td>
+                    <td></td><td></td><td></td><td></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+  </div>
+  <script>
+    // func to handle modal display
+    const modal = document.getElementById('holidayModal');
+    const closeModal = document.getElementById('closeModal');
+    const closeButton = document.getElementById('closeButton');
+    const modalImage = document.getElementById('modalImage');
+    const modalTitle = document.getElementById('modalTitle');
+    const modalDate = document.getElementById('modalDate');
+    const modalDescription = document.getElementById('modalDescription');
+    
+    // click event for holiday cells
+    document.querySelectorAll('.holiday-cell').forEach(cell => {
+        cell.addEventListener('click', function() {
+            modal.style.display = 'flex';
+            modalImage.src = this.getAttribute('data-image');
+            modalTitle.textContent = this.getAttribute('data-title');
+            modalDate.textContent = this.getAttribute('data-date');
+            modalDescription.textContent = this.getAttribute('data-description');
+        });
+    });
+    
+    // exit event modal
+    closeModal.addEventListener('click', function() {
+        modal.style.display = 'none';
+    });
+    // exit button event modal
+    closeButton.addEventListener('click', function() {
+        modal.style.display = 'none';
+    });
+    
+    // exit event modal 
+    window.addEventListener('click', function(event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    // exit modal on ESC key
+    document.addEventListener("keydown", function(event) {
+        if (event.key === "Escape") {
+            modal.style.display = 'none';      
+     }
+});
+    });
+  </script>
+</body>
+</html>
